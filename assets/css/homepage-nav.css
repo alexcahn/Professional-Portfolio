@@ -28,7 +28,7 @@ ul {
 
   .dropdown {
     float: right;
-    overflow: hidden;
+    overflow: visible;
   }
   
   .dropdown .dropbtn {
@@ -50,15 +50,15 @@ ul {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    overflow: visible;
   }
   
   .dropdown-content a {
     float: none;
     color: black;
-    padding: 12px 16px;
+    padding: 14px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
@@ -86,7 +86,7 @@ ul {
     position: absolute;
     bottom: 0;
     margin-left: 20px;
-    margin-bottom: 20px;
+    margin-top: 50px;
     left: 0;
     border-radius: 50%;
     object-fit: initial;
@@ -99,8 +99,6 @@ ul {
 
  .background{
 	z-index: 1;
-	position: relative;
-	overflow: hidden;
 	display: flex;
 	justify-content: center;
 	min-height: 100vh;
@@ -110,4 +108,15 @@ ul {
 	background-size: cover;
 	background-position: center center;
 	padding: 2rem;
+}
+
+/* footer */
+footer {
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  background: linear-gradient(35deg, #1c2c49, #86b8d4);
+  height: 10px;
 }

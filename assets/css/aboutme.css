@@ -1,0 +1,24 @@
+img{
+    width: 205px;
+    height: 205px;
+    margin: 0px 40px auto;
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+    text-align:center;
+}
+
+.main-content{
+    background-image: url("../images/aboutmebackground.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding: 2rem;
+}
+
+h1, h2, p, a{
+    color: white;
+}
+
+h4{
+    color: yellowgreen;
+}
