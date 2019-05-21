@@ -8,6 +8,11 @@ img{
     text-align:center;
 }
 
+img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+
 .main-content{
     background-image: url("../images/aboutmebackground.jpg");
     background-size: cover;
