@@ -107,3 +107,7 @@ footer {
   background: linear-gradient(35deg, #1c2c49, #86b8d4);
   height: 10px;
 }
+
+.homepage-content{
+  margin-bottom: 100px;
+}
