@@ -1,0 +1,20 @@
+.flockapageimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+h2{
+    text-align: center;
+}
+
+.main-content{
+    padding: 0 305px;
+}
+
+.info{
+    text-align: center;
+}
