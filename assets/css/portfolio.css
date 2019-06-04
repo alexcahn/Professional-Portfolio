@@ -7,6 +7,7 @@ footer {
     text-align: center;
     background: linear-gradient(35deg, #1c2c49, #86b8d4);
     height: 10px;
+    margin-top: 10px;
   }
 
   /* navbar */
@@ -77,20 +78,6 @@ ul {
   h1, h2{
       color: black;
   }
-
-  .flocka {
-    position: relative;
-    width: 50%;
-  }
-  
-  .flockaimg {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
   
   .middle {
     transition: .5s ease;
@@ -120,20 +107,10 @@ ul {
     text-decoration: none;
   }
 
-  .crystal {
+  .crystal, .liri, .flocka {
     position: relative;
     width: 50%;
   }
-  
-  .crystalimg {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
-
   
   .crystal:hover .crystalimg {
     opacity: 0.3;
@@ -142,13 +119,8 @@ ul {
   .crystal:hover .middle {
     opacity: 1;
   }
-
-  .liri {
-    position: relative;
-    width: 50%;
-  }
   
-  .liriimg {
+  .liriimg, .crystalimg, .flockaimg  {
     opacity: 1;
     display: block;
     width: 100%;
