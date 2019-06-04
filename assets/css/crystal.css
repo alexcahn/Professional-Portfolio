@@ -3,5 +3,13 @@ footer {
 }
 
 .main-content{
-    padding: 0 100px;
+    padding: 0 200px;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-decoration: underline;
 }
