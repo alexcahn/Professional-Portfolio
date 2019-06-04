@@ -137,3 +137,7 @@ ul {
   .liri:hover .middle {
     opacity: 1;
   }
+
+  h2{
+    text-decoration: underline;
+  }
