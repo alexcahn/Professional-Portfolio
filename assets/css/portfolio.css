@@ -1,14 +1,4 @@
-/* footer */
-footer {
-    padding: 30px 0;
-    clear: both;
-    font-size: 12px;
-    color: white;
-    text-align: center;
-    background: linear-gradient(35deg, #1c2c49, #86b8d4);
-    height: 10px;
-    margin-top: 10px;
-  }
+
 
   /* navbar */
 
@@ -75,8 +65,23 @@ ul {
     object-fit: fill;
 }
 
+footer {
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  background: linear-gradient(35deg, #1c2c49, #86b8d4);
+  height: 10px;
+  margin-top: 60px;
+}
+
   h1, h2{
       color: black;
+  }
+
+  h2{
+    text-decoration: underline;
   }
   
   .middle {
@@ -127,6 +132,7 @@ ul {
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
+    border: black 2px solid;
   }
 
   
@@ -138,6 +144,7 @@ ul {
     opacity: 1;
   }
 
-  h2{
-    text-decoration: underline;
+  .main-content, .liri, .flocka, .crystal {
+    text-align: center;
+    display: inline-block;
   }
