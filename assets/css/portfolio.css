@@ -95,14 +95,6 @@ footer {
     text-align: center;
   }
   
-  .flocka:hover .flockaimg {
-    opacity: 0.3;
-  }
-  
-  .flocka:hover .middle {
-    opacity: 1;
-  }
-  
   .text, .middle a {
     background-color: rgb(73, 140, 218);
     color: white;
@@ -112,7 +104,7 @@ footer {
     text-decoration: none;
   }
 
-  .crystal, .liri, .flocka {
+  .crystal, .liri, .flocka, .bamazon {
     position: relative;
     width: 50%;
   }
@@ -124,8 +116,32 @@ footer {
   .crystal:hover .middle {
     opacity: 1;
   }
+
+  .flocka:hover .flockaimg {
+    opacity: 0.3;
+  }
   
-  .liriimg, .crystalimg, .flockaimg  {
+  .flocka:hover .middle {
+    opacity: 1;
+  }
+
+  .bamazon:hover .bamazonimg {
+    opacity: 0.3;
+  }
+  
+  .bamazon:hover .middle {
+    opacity: 1;
+  }
+  
+  .liri:hover .liriimg {
+    opacity: 0.3;
+  }
+  
+  .liri:hover .middle {
+    opacity: 1;
+  }
+  
+  .liriimg, .crystalimg, .flockaimg, .bamazonimg {
     opacity: 1;
     display: block;
     width: 100%;
@@ -135,16 +151,7 @@ footer {
     border: black 2px solid;
   }
 
-  
-  .liri:hover .liriimg {
-    opacity: 0.3;
-  }
-  
-  .liri:hover .middle {
-    opacity: 1;
-  }
-
-  .main-content, .liri, .flocka, .crystal {
+  .main-content, .liri, .flocka, .crystal, .bamazon {
     text-align: center;
     display: inline-block;
   }
