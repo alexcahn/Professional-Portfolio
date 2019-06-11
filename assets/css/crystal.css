@@ -1,9 +1,8 @@
-footer {
-    margin-top: 20px;
-}
 
 .main-content{
     padding: 0 200px;
+    background-image: url("../images/crystalbackground.jpg");
+    background-size: cover;
 }
 
 h2{

@@ -73,7 +73,6 @@ footer {
   text-align: center;
   background: linear-gradient(35deg, #1c2c49, #86b8d4);
   height: 10px;
-  margin-top: 60px;
 }
 
   h1, h2{
@@ -132,7 +131,7 @@ footer {
   .bamazon:hover .middle {
     opacity: 1;
   }
-  
+
   .liri:hover .liriimg {
     opacity: 0.3;
   }

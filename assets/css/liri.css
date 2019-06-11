@@ -1,6 +1,8 @@
 .main-content{
     padding: 0 100px;
     color: black;
+    background-image: url("../images/liribackground.jpg");
+    background-size: cover;
 }
 
 h2, h3{
