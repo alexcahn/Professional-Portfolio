@@ -1,14 +1,10 @@
 .main-content{
     padding: 0 100px;
-    /* text-align: center; */
-    background-image: url("../images/liribackground.jpg");
-    background-size: cover;
-    background-position: right;
-    color: blue;
+    color: black;
 }
 
 h2, h3{
-    color: blue;
+    color: black;
     font-weight: bold
 }
 
